@@ -1,0 +1,26 @@
+{
+  "name": "plan-a-trip",
+  "version": "1.0.0",
+  "description": "A trip planning application",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "dev:watch": "node --watch src/index.js"
+  },
+  "keywords": [
+    "trip",
+    "planning"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.3",
+    "express": "^5.2.1",
+    "openai": "^7.23.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
